@@ -1,0 +1,26 @@
+# /etc/conf.d/izzyd: config file for /etc/init.d/izzyd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/izzy/izzy.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/izzyd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/izzyd.pid"
+
+# Where to write izzyd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/izzyd"
+
+# User and group to own izzyd process
+#BITCOIND_USER="izzy"
+#BITCOIND_GROUP="izzy"
+
+# Path to izzyd executable
+#BITCOIND_BIN="/usr/bin/izzyd"
+
+# Nice value to run izzyd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Izzy
+Comment=Izzy P2P Cryptocurrency
+Comment[fr]=Izzy, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Izzy, eşten eşe kriptografik sanal para birimi
+Exec=izzy-qt %u
+Terminal=false
+Type=Application
+Icon=izzy128
+MimeType=x-scheme-handler/izzy;
+Categories=Office;Finance;
